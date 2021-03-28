@@ -246,6 +246,10 @@ footer {
 
 @media(max-width: 768px) {
 
+  .container {
+    width: 100%;
+  }
+
   header {
     height: 50px;
   }
@@ -257,6 +261,10 @@ footer {
 
   .header-logo {
     height: 50px;
+  }
+
+  #top-navbar {
+    display: none;
   }
 
   #main-visual {
@@ -274,5 +282,19 @@ footer {
 
   .nd {
     display: none;
+  }
+
+  .strength-box {
+    display: block;
+    width: 100%;
+  }
+
+  .profile-box {
+    display: block;
+  }
+
+  .contact-box {
+    display: block;
+    width: 100%;
   }
 }
