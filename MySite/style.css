@@ -145,7 +145,7 @@ nav {
   margin-right: 0;
 }
 
-.picture:nth-child(-n+3) {
+.picture:nth-child(-n + 3) {
   margin-top: 0;
 }
 
@@ -244,8 +244,7 @@ footer {
   line-height: 60px;
 }
 
-@media(max-width: 768px) {
-
+@media (max-width: 768px) {
   .container {
     width: 100%;
   }
@@ -277,7 +276,7 @@ footer {
 
   .picture-box {
     display: block;
-    width: 100%;
+    width: 300px;
   }
 
   .nd {
